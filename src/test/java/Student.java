@@ -1,13 +1,13 @@
 @Table(name = "student")
 public class Student {
 
-    @Column(name="id")
+    @Id()
     private String id;
-    @Column(name="name")
+    @Id(name="name")
     private String name;
-    @Column(name="address")
+    @Id(name="address")
     private String address;
-    @Column(name="contact")
+    @Id(name="contact")
     private String contact;
 
 
