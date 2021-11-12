@@ -3,7 +3,7 @@ public class Student {
 
     @Id()
     private String id;
-    @Id(name="name")
+    @Name()
     private String name;
     @Id(name="address")
     private String address;
